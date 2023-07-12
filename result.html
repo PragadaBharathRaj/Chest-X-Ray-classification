@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+<br>
+{% for message in messages %}
+    <h3>{{message}}</h3>
+{% endfor %}
+<br>
+<form action="/",method="GET">
+    <input type="submit" value="Try with new image">
+</form>
+</body>
+</html>
